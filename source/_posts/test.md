@@ -12,4 +12,5 @@ tags:
 
 
 
-插入图像测试![](E:\B70_POOL\source\imags\test_imag.jpg)
+插入图像测试![](test_imag.jpg)
+
