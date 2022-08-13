@@ -185,9 +185,9 @@ friends_link:
     url: https://github.com/Shen-Yu/hexo-theme-ayer
     #网站图片(可忽略不写)
     img: /images/ayer.png
-  GitHub:
-    url: https://github.com/Shen-Yu
-    img: /images/github.png
+  Liang's Blog:
+    url: https://www.liliaw.com/
+    img: /images/liang.png
   码云:
     url: https://gitee.com/shen-yu
     img: /images/gitee.png
