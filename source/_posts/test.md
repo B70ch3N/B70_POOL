@@ -14,4 +14,4 @@ tags:
 
 插入图像测试
 
-![](test\test_imag.jpg)
+![test](test/test_imag.jpg)
