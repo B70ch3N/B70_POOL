@@ -261,6 +261,10 @@ input("按回车结束程序")
 
 
 
+
+
+![](Python学习01\003.jpg)
+
 参考资料：
 
 [Python3菜鸟教程](https://www.runoob.com/python3/python3-tutorial.html)
