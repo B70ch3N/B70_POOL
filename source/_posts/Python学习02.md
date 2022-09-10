@@ -512,7 +512,7 @@ Python字典包含了以下内置方法：
 
 
 
-![](Python学习02\001.jpg)
+<img src="Python学习02\001.jpg" style="zoom:80%;" />
 
 
 

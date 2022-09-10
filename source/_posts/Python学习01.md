@@ -263,7 +263,7 @@ input("按回车结束程序")
 
 
 
-![](Python学习01\003.jpg)
+<img src="Python学习01\003.jpg" style="zoom:80%;" />
 
 参考资料：
 
