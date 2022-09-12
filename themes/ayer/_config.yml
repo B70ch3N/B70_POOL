@@ -186,9 +186,9 @@ friends_link:
   Liang's Blog:
     url: https://www.liliaw.com/
     img: /images/liang.png
-  码云:
-    url: https://gitee.com/shen-yu
-    img: /images/gitee.png
+  #码云:
+    #url: https://gitee.com/shen-yu
+    #img: /images/gitee.png
   Hexo官网:
     url: https://hexo.io
     img: /images/hexo.png
