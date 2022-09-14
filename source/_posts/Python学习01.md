@@ -213,6 +213,10 @@ print(r'hi\nbro')  # 在字符串前面添加一个r，表示原始字符串，�
 > bro
 > hi\nbro
 
+
+
+关于字符串更多内容可以参考[这里](https://www.runoob.com/python3/python3-string.html)
+
 ### print输出函数
 
 print输出默认换行，如果要实现不换行，需要让print参数end的值为空。
