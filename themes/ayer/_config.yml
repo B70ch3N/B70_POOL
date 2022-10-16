@@ -28,7 +28,7 @@ logo: /images/side.jpg
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
   enable: true
-  path: /images/cover13.png # /source/images目录下附送多张美图，可更换
+  path: /images/cover14.jpg # /source/images目录下附送多张美图，可更换
   logo: false #/images/ayer.svg，如果不要直接设置成false
 
 # 页面顶部进度条
@@ -178,23 +178,23 @@ gongan:
 
 # 友情链接
 friends_link:
-  Ayer主题: #网站名称
+  #Ayer主题: #网站名称
     #网站地址
-    url: https://github.com/Shen-Yu/hexo-theme-ayer
+    #url: https://github.com/Shen-Yu/hexo-theme-ayer
     #网站图片(可忽略不写)
-    img: /images/ayer.png
+    #img: /images/ayer.png
   Liang's Blog:
     url: https://www.liliaw.com/
     img: /images/liang.png
   #码云:
     #url: https://gitee.com/shen-yu
     #img: /images/gitee.png
-  Hexo官网:
-    url: https://hexo.io
-    img: /images/hexo.png
-  Hexo图表插件:
-    url: https://github.com/Shen-Yu/hexo-tag-chart
-    img: /images/hexo-tag-chart.png
+  #Hexo官网:
+    #url: https://hexo.io
+    #img: /images/hexo.png
+  #Hexo图表插件:
+    #url: https://github.com/Shen-Yu/hexo-tag-chart
+    #img: /images/hexo-tag-chart.png
 
 # 评论：1、Valine(推荐)；2、Gitalk；3、Twikoo; 4.MiniValine
 
