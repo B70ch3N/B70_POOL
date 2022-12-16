@@ -1,0 +1,145 @@
+---
+title: pandas学习01
+date: 2022-11-12 14:29:21
+tags: Python; Pandas
+---
+
+# pandas学习01
+
+## 1.Pandas 是什么
+
+**Pandas 是 Python 语言的一个扩展程序库，用于数据分析。**Pandas 是一个开放源码、BSD 许可的库，提供高性能、易于使用的数据结构和数据分析工具。Pandas 名字衍生自术语 "panel data"（面板数据）和 "Python data analysis"（Python 数据分析）。Pandas 一个强大的分析结构化数据的工具集，基础是 [Numpy](https://www.runoob.com/numpy/numpy-tutorial.html)（提供高性能的矩阵运算）。Pandas 可以从各种文件格式比如 CSV、JSON、SQL、Microsoft Excel 导入数据。Pandas 可以对各种数据进行运算操作，比如归并、再成形、选择，还有数据清洗和数据加工特征。Pandas 广泛应用在学术、金融、统计学等各个数据分析领域。
+
+可使用
+
+```python
+pip install pandas
+```
+
+来安装
+
+通常使用`import pandas as pd`导入pandas库
+
+## 2.数据结构
+
+**Series** 是一种类似于一维数组的对象，它由一组数据（各种Numpy数据类型）以及一组与之相关的数据标签（即索引）组成。
+
+**DataFrame** 是一个表格型的数据结构，它含有一组有序的列，每列可以是不同的值类型（数值、字符串、布尔型值）。DataFrame 既有行索引也有列索引，它可以被看做由 Series 组成的字典（共同用一个索引）。
+
+## 3.Series的相关操作及特性
+
+Series 相对于DataFrame来说，类似于表格中的一个列（column），类似于一维数组，可以保存任何数据类型。
+
+```python
+pandas.Series( data, index, dtype, name, copy)
+```
+
+参数说明：
+
+- **data**：一组数据(ndarray 类型)。
+- **index**：数据索引标签，如果不指定，默认从 0 开始。
+- **dtype**：数据类型，默认会自己判断。
+- **name**：设置名称。
+- **copy**：拷贝数据，默认为 False。
+
+### 3.1实例化Series对象
+
+通常使用`pd.Series(data, index=index)`来实例化Series对象。
+
+例如
+
+```python
+import pandas as pd
+s1 = pd.Series([88, 60, 75],index=['std1', 'std2', 'std3'])
+print(s1)
+```
+
+输出
+
+> std1    88
+> std2    60
+> std3    75
+> dtype: int64
+
+index空白时，默认从0开始依次+1
+
+### 3.2Series对象的索引
+
+#### 3.2.1位置索引
+
+位置索引从0开始
+
+例如
+
+```python
+import pandas as pd
+s1 = pd.Series([88, 60, 75],index=['std1', 'std2', 'std3'])
+print(s1[0])
+```
+
+输出
+
+> 88
+
+注意：Series对象不能用[-1]等进行位置索引
+
+#### 3.2.2标签索引
+
+方式如下
+
+```python
+import pandas as pd
+s1 = pd.Series([88, 60, 75],index=['std1', 'std2', 'std3'])
+print(s1['std1'])
+print(s1[['std1', 'std2']])
+```
+
+输出
+
+> 88
+> std1    88
+> std2    60
+> dtype: int64
+
+#### 3.2.3切片索引
+
+方式与列表类似
+
+具体如下
+
+```python
+import pandas as pd
+s1 = pd.Series([88, 60, 75],index=['std1', 'std2', 'std3'])
+print(s1[0:3])
+print(s1['std1': 'std3'])
+
+```
+
+> std1    88
+> std2    60
+> std3    75
+> dtype: int64
+> std1    88
+> std2    60
+> std3    75
+> dtype: int64
+
+### 3.3获取Series的值和索引 
+
+可使用Series的index方法和value方法获得索引和值
+
+具体如下
+
+```python
+import pandas as pd
+s1 = pd.Series([88, 60, 75],index=['std1', 'std2', 'std3'])
+print(s1.values)
+print(s1.index)
+```
+
+输出
+
+> [88 60 75]
+> Index(['std1', 'std2', 'std3'], dtype='object')
+
+## 4.DataFrame的相关操作及特性
