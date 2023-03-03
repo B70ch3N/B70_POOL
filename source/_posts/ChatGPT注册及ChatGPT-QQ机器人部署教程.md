@@ -10,6 +10,8 @@ ChatGPT（全名：Chat Generative Pre-trained Transformer）是由美国 OpenAI
 
 虽然ChatGPT功能很强大，但由于种种原因，ChatGPT的注册过程有些许麻烦，希望本篇教程能够帮助到你。
 
+<!--more-->
+
 ## 准备工具
 
 必要准备
