@@ -119,7 +119,7 @@ ChatGPT（全名：Chat Generative Pre-trained Transformer）是由美国 OpenAI
 
 最后运行“启动ChatGPT”，机器人启动成功！
 
-### 三、一些题外话
+### 四、一些题外话
 
 - [一些奇妙的ChatGPT用法](https://github.com/PlexPt/awesome-chatgpt-prompts-zh/issues/12)
 
