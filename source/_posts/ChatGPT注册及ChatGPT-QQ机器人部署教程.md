@@ -47,7 +47,7 @@ ChatGPT（全名：Chat Generative Pre-trained Transformer）是由美国 OpenAI
 
 想要续期可以在我的账户->套餐续期里支付
 
-<img src="E:\B70_POOL\source\_posts\ChatGPT注册及ChatGPT-QQ机器人部署教程\06.jpg" style="zoom:50%;" />
+<img src="ChatGPT注册及ChatGPT-QQ机器人部署教程\06.jpg" style="zoom:50%;" />
 
 ### 二、注册ChatGPT账号
 
@@ -67,7 +67,7 @@ ChatGPT（全名：Chat Generative Pre-trained Transformer）是由美国 OpenAI
 
 在这里输入刚刚获得的手机号，就可以通过易博通公众号收到验证码
 
-<img src="E:\B70_POOL\source\_posts\ChatGPT注册及ChatGPT-QQ机器人部署教程\09.png" style="zoom:50%;" />
+<img src="ChatGPT注册及ChatGPT-QQ机器人部署教程\09.png" style="zoom:50%;" />
 
 <img src="ChatGPT注册及ChatGPT-QQ机器人部署教程\10.png" style="zoom:50%;" />
 
@@ -87,7 +87,7 @@ ChatGPT（全名：Chat Generative Pre-trained Transformer）是由美国 OpenAI
 
 运行完毕后你需要在打开的配置文件中修改红框中的东西
 
-<img src="E:\B70_POOL\source\_posts\ChatGPT注册及ChatGPT-QQ机器人部署教程\14.png" style="zoom:50%;" />
+<img src="ChatGPT注册及ChatGPT-QQ机器人部署教程\14.png" style="zoom:50%;" />
 
 在之后的启动过程中如果出错，你可以尝试：
 
