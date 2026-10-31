@@ -11,6 +11,9 @@
   "hexo": {
     "version": "6.2.0"
   },
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
     "hexo": "^6.2.0",
     "hexo-asset-image": "github:CodeFalling/hexo-asset-image",
