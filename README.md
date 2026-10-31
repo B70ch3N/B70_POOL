@@ -53,6 +53,10 @@ node .tools\package\bin\npm-cli.js ci --cache .tools\npm-cache
 
 如果是在自己装了 Node 的机器上，直接 `npm ci` 即可。
 
+Node 版本固定为 **24.x**（`package.json` 的 `engines` 字段，Vercel 构建时会读取它）。
+Vercel 面板的 Project Settings → Node.js Version 建议也同步设成 24.x，双保险。
+本地实测 Node 24.21 下 `hexo generate` 正常。
+
 ```powershell
 .\tools\build.cmd            # 本地全量构建到 public/，只是给你自己看
 .\tools\build.cmd -NoClean   # 增量
@@ -85,6 +89,9 @@ git push
    写明 `search.path: search.xml`，以后升级 searchdb 也不会退回 `search.json`。
 4. **本地工具链对齐线上**：之前本地装成了 hexo 6.3.0 / searchdb 1.5.0，构建结果和线上不一致；
    现在按 `package-lock.json` 安装，本地构建与线上逐字节一致（仅页脚年份按当前日期变化）。
+5. **Vercel 构建直接被 Node 16 卡死**：项目面板里 Node 版本还停在已停止支持的 `16.x`，
+   推代码后构建立刻报 `Found invalid or discontinued Node.js Version: "16.x"`。
+   已在 `package.json` 用 `engines.node = 24.x` 固定，重新部署成功。
 
 ## 本机（DSH 沙箱）特有的两个坑
 
